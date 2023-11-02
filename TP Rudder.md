@@ -298,9 +298,13 @@ Rédigez un rapport détaillé incluant les étapes réalisées, les configurati
 Identifiez les domaines d'amélioration dans la manière dont Rudder est utilisé et proposez des actions concrètes.
 
 Fiabilité et traçabilité des déploiements
+
 Automatisation des correctifs
+
 Analyse de conformité
+
 Gestion des accès
+
 Optimisation et évolution de l'infrastructure
 
 ​
