@@ -42,8 +42,9 @@ Installez Rudder Server sur la machine virtuelle serveur dédiée
 
 Connectez-vous à l'interface web de Rudder, vérifiez l'état du serveur et assurez-vous qu'il est prêt à communiquer avec les agents.
 
-​
-![[Pasted image 20231102140015.png]]
+​![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/a80de3ec-3336-44f3-8f87-ef959f187ab1)
+
+
 
 ​
 
@@ -81,8 +82,8 @@ apt-get update
 Assurez-vous que l'agent apparaisse dans l'interface web de Rudder et soit autorisée.
 
 ​
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/46c50ee3-7668-40d8-95e9-35dbb805453b)
 
-![[Pasted image 20231102140611.png]]
 
 ​
 
@@ -103,7 +104,8 @@ Sur les systèmes Linux :
 >>*sudo useradd -m -s /usr/bin/nologin user02*
 ​
 
-<img src= "https://imgur.com/H0faw0L.jpg">
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/c94a0ce9-b265-4db1-8fa6-b416ec652503)
+
 
 ​
 >Désactivation des comptes : S'assurer que le compte "user02" est désactivé.
@@ -135,8 +137,9 @@ Sur les systèmes Linux :
 
 >>*sudo ufw enable*
 
-​
-![[Pasted image 20231102140744.png]]
+​![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/ee388393-f778-4ec3-8a3d-a7c522e7eeed)
+
+
 ​
 
 >Mise à jour des Packages : Appliquer toutes les mises à jour de sécurité disponibles.
@@ -155,16 +158,17 @@ Sur les systèmes Linux :
 >>*sudo apt-get install fail2ban*
 
 ​
-![[Pasted image 20231102140834.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/cc7dc246-2b3d-4310-aec3-42bb38aa1d18)
+
 
 ​
 
 >Déploiement de fichiers : Déployer une page web contenant l'IP du serveur.
 
->>
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/ed9d8523-9958-4ea7-96be-ca475cbe9cc8)
 
-​
-![[Pasted image 20231102140858.png]]
+
+
 
 ​
 
@@ -185,8 +189,8 @@ Sur les systèmes Linux :
 >>>*sudo nano /etc/ssh/ssh_config*
 
 ​
-<img src= "https://imgur.com/qFKnoLM.jpg">
-![[Pasted image 20231102141016.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/65459c12-423c-4f04-b213-7142efea5842)
+
 
 
 ​## Tâche 4 : Audit et Conformité
@@ -200,11 +204,13 @@ Sur les systèmes Linux :
 Utilisez les fonctionnalités d'audit de Rudder pour vérifier la conformité des machines avec les configurations souhaitées.
 
 ​
-![[Pasted image 20231102141208.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/f77c23af-4f03-4181-bf84-9b0ddc3e10c1)
 
 
 
-![[Pasted image 20231102141134.png]]
+
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/b196c06d-741e-455f-91eb-bfdd52c7c007)
+
 
 ​
 
@@ -224,11 +230,14 @@ Générez un rapport de conformité à partir de l'interface web de Rudder et an
 
 ​
 
-![[Pasted image 20231102141435.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/3ed2432a-8ab8-4ce2-b1a5-4f7865a6a0c2)
 
-![[Pasted image 20231102141517.png]]
-​
-![[Pasted image 20231102142426.png]]
+
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/1a720dda-c7b7-4563-b8f8-d6b45b5de2ba)
+
+
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/8748a78f-7a6f-4517-964f-be2485b72a14)
+
 
 **5.2 Scénario Pratique**
 
@@ -238,17 +247,22 @@ Répondez à une demande de changement fictive, en modifiant les configurations 
 
 l'exécution d'une commande sudo apt update
 
-![[Pasted image 20231102151130.png]]​
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/7df9ba57-1b48-4b79-ba91-e50d3bd13a46)
+​
 
-![[Pasted image 20231102151203.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/c4225138-174a-44ae-b695-c9354b416dee)
+
 
 ​création d'un nouvel utilisateur
 
-![[Pasted image 20231102170344.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/ab139887-5933-41b1-98b2-ffaf0281bcd8)
 
-![[Pasted image 20231102170544.png]]
 
-![[Pasted image 20231102170530.png]]
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/f41a85eb-b7fd-4b49-af40-89c8f8ab6cc5)
+
+
+![image](https://github.com/criss1180/TP-ITIL-/assets/115303549/3ab40c4b-73c6-43f3-8b2c-ca428d58faf0)
+
 
 ## Tâche 6 : Intégration avec ITIL et Documentation
 
